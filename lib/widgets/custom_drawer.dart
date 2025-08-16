@@ -13,11 +13,11 @@ class CustomDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Colors.indigo,
+      backgroundColor: Colors.white,
       child: Column(
         children: [
           const DrawerHeader(
-            child: Icon(Icons.favorite, color: Colors.white, size: 42),
+            child: Icon(Icons.favorite, color: Colors.black, size: 42),
           ),
           ListView.builder(
             itemCount: items.length,

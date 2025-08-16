@@ -7,10 +7,10 @@ class DrawerItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: Icon(drawer.icon, color: Colors.white),
+      leading: Icon(drawer.icon, color: Colors.black54),
       title: Text(
         drawer.title,
-        style: TextStyle(color: Colors.white, letterSpacing: 3),
+        style: TextStyle(color: Colors.black, letterSpacing: 3),
       ),
     );
   }

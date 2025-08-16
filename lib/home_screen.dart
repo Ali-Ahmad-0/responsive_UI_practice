@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_test/layouts/mobile_layout.dart';
 import 'package:responsive_test/widgets/custom_drawer.dart';
-import 'package:responsive_test/widgets/desktop_layout.dart';
-import 'package:responsive_test/widgets/mobile_layout.dart';
-import 'package:responsive_test/widgets/tablet_layout.dart';
+import 'package:responsive_test/layouts/desktop_layout.dart';
+import 'package:responsive_test/layouts/tablet_layout.dart';
 
 // ignore: must_be_immutable
 class HomeScreen extends StatelessWidget {
@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
       key: scafoldKey,
       drawer: CustomDrawer(),
       appBar: AppBar(
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.black87,
         leading: IconButton(
           onPressed: () {
             scafoldKey.currentState!.openDrawer();
