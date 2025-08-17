@@ -10,13 +10,9 @@ class TabletLayout extends StatelessWidget {
     return CustomScrollView(
       slivers: [
         SliverToBoxAdapter(
-          child: LayoutBuilder(
-            builder: (context, constraints) {
-              return CustomSliverGrid(crossAxisCount: 4);
-            },
-          ),
+          child: CustomSliverGrid(crossAxisCount: 4),
         ),
-        SliverToBoxAdapter(child: SizedBox(height: 20)),
+        SliverToBoxAdapter(child: SizedBox(height: 10)),
         CustomSliverList(),
       ],
     );

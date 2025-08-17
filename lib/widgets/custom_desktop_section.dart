@@ -8,7 +8,7 @@ class CustomDesktopSection extends StatelessWidget {
     return Column(
       children: [
         Expanded(
-          flex: 4,
+          flex: 3,
           child: Container(
             decoration: BoxDecoration(
               color: Colors.grey,
